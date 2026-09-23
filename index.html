@@ -130,13 +130,26 @@ overflow-x:hidden;
 }
 
 a{
-text-decoration:none;
-color:inherit;
+.preview-image{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+    background:#080b14;
 }
 
-img{
-max-width:100%;
-display:block;
+.preview-card{
+    background:#0c111f;
+    border:1px solid var(--border);
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.preview-caption{
+    padding:13px 15px;
+    font-size:12px;
+    font-weight:800;
+    color:#cbd5e1;
 }
 .preview-image{
     width:100%;
