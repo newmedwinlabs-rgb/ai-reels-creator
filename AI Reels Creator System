@@ -1,0 +1,3514 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>30-Day AI Reels Creator System | Telugu Creator Edition</title>
+
+<meta name="description"
+content="AIతో Instagram Reels Create చేయడానికి Complete Telugu Step-by-Step System. 100 AI Prompts, 30 Telugu Reel Scripts, 30-Day Challenge and Complete AI Reel Workflow.">
+
+<meta name="theme-color" content="#060812">
+
+<!-- =========================
+     GOOGLE FONTS
+========================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+
+<!-- =========================
+     META PIXEL
+     REPLACE YOUR_PIXEL_ID
+========================= -->
+
+<!--
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', 'YOUR_PIXEL_ID');
+
+fbq('track', 'PageView');
+
+fbq('track', 'ViewContent');
+</script>
+-->
+
+
+<style>
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+:root{
+
+--bg:#050711;
+--bg2:#090c18;
+--card:#0d1220;
+--card2:#11182a;
+
+--white:#ffffff;
+--text:#eef2ff;
+--muted:#9da7bd;
+
+--blue:#4f8cff;
+--blue2:#2563eb;
+--purple:#8b5cf6;
+--cyan:#22d3ee;
+
+--green:#22c55e;
+
+--border:rgba(255,255,255,.09);
+
+--max:1120px;
+
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:
+
+radial-gradient(
+circle at 15% 0%,
+rgba(79,140,255,.14),
+transparent 30%
+),
+
+radial-gradient(
+circle at 90% 15%,
+rgba(139,92,246,.12),
+transparent 30%
+),
+
+var(--bg);
+
+color:var(--text);
+
+font-family:
+"Inter",
+"Noto Sans Telugu",
+sans-serif;
+
+line-height:1.6;
+
+overflow-x:hidden;
+
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+.container{
+width:min(92%,var(--max));
+margin:auto;
+}
+
+section{
+padding:85px 0;
+}
+
+.center{
+text-align:center;
+}
+
+
+/* =========================================================
+   GLOBAL TEXT
+========================================================= */
+
+.gradient{
+
+background:
+linear-gradient(
+90deg,
+#60a5fa,
+#8b5cf6,
+#22d3ee
+);
+
+-webkit-background-clip:text;
+background-clip:text;
+
+color:transparent;
+
+}
+
+.label{
+
+display:inline-block;
+
+font-size:11px;
+
+font-weight:900;
+
+letter-spacing:2px;
+
+color:#60a5fa;
+
+margin-bottom:12px;
+
+}
+
+.section-title{
+
+font-size:
+clamp(31px,4.5vw,48px);
+
+line-height:1.1;
+
+font-weight:900;
+
+letter-spacing:-1px;
+
+margin-bottom:16px;
+
+}
+
+.section-sub{
+
+max-width:720px;
+
+margin:0 auto 45px;
+
+color:var(--muted);
+
+font-size:16px;
+
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+justify-content:center;
+
+gap:8px;
+
+padding:17px 28px;
+
+border-radius:12px;
+
+font-size:15px;
+
+font-weight:900;
+
+border:0;
+
+cursor:pointer;
+
+transition:.25s;
+
+}
+
+.btn-primary{
+
+background:
+linear-gradient(
+135deg,
+#4f8cff,
+#7c3aed
+);
+
+color:white;
+
+box-shadow:
+0 15px 40px rgba(79,140,255,.28);
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-3px);
+
+box-shadow:
+0 20px 50px rgba(79,140,255,.40);
+
+}
+
+.btn-full{
+width:100%;
+}
+
+
+/* =========================================================
+   TOP BAR
+========================================================= */
+
+.topbar{
+
+padding:10px 15px;
+
+text-align:center;
+
+font-size:12px;
+
+font-weight:800;
+
+background:
+linear-gradient(
+90deg,
+#0d1730,
+#17102c,
+#0d1730
+);
+
+border-bottom:
+1px solid var(--border);
+
+}
+
+.topbar strong{
+color:#7dd3fc;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+
+padding:
+70px 0 75px;
+
+position:relative;
+
+}
+
+.hero-grid{
+
+display:grid;
+
+grid-template-columns:
+1.08fr
+.92fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.badge{
+
+display:inline-flex;
+
+padding:7px 13px;
+
+border-radius:50px;
+
+border:
+1px solid rgba(96,165,250,.25);
+
+background:
+rgba(59,130,246,.07);
+
+color:#93c5fd;
+
+font-size:11px;
+
+font-weight:900;
+
+letter-spacing:1px;
+
+margin-bottom:20px;
+
+}
+
+.hero h1{
+
+font-size:
+clamp(40px,5.3vw,67px);
+
+line-height:1.03;
+
+font-weight:900;
+
+letter-spacing:-2px;
+
+margin-bottom:20px;
+
+}
+
+.hero-desc{
+
+font-size:18px;
+
+color:var(--muted);
+
+max-width:650px;
+
+margin-bottom:25px;
+
+}
+
+.hero-desc strong{
+color:#e6ebf7;
+}
+
+.workflow{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:7px;
+
+margin-bottom:28px;
+
+}
+
+.workflow span{
+
+padding:6px 9px;
+
+border-radius:7px;
+
+background:
+rgba(255,255,255,.045);
+
+border:
+1px solid var(--border);
+
+font-size:11px;
+
+font-weight:800;
+
+color:#cbd5e1;
+
+}
+
+.hero-actions{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:10px;
+
+}
+
+.secure{
+
+font-size:11px;
+
+color:#78839a;
+
+}
+
+.hero-price{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+margin-top:17px;
+
+}
+
+.hero-price .new{
+
+font-size:38px;
+
+font-weight:900;
+
+}
+
+.hero-price .old{
+
+font-size:17px;
+
+color:#687187;
+
+text-decoration:line-through;
+
+}
+
+.launch{
+
+font-size:11px;
+
+color:#67e8f9;
+
+font-weight:800;
+
+}
+
+
+/* =========================================================
+   PRODUCT MOCKUP
+========================================================= */
+
+.product-area{
+
+position:relative;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.product-glow{
+
+position:absolute;
+
+width:420px;
+height:420px;
+
+border-radius:50%;
+
+background:
+radial-gradient(
+circle,
+rgba(79,140,255,.28),
+transparent 65%
+);
+
+filter:blur(12px);
+
+}
+
+.book{
+
+width:min(380px,82vw);
+
+aspect-ratio:.71;
+
+position:relative;
+
+z-index:2;
+
+border-radius:17px;
+
+padding:31px;
+
+overflow:hidden;
+
+background:
+
+linear-gradient(
+145deg,
+#14234a,
+#090e20 58%,
+#17102e
+);
+
+border:
+1px solid rgba(255,255,255,.14);
+
+box-shadow:
+0 40px 90px rgba(0,0,0,.58),
+0 0 70px rgba(79,140,255,.14);
+
+}
+
+.book::before{
+
+content:"";
+
+position:absolute;
+
+width:260px;
+height:260px;
+
+border-radius:50%;
+
+background:
+rgba(79,140,255,.15);
+
+filter:blur(25px);
+
+top:-110px;
+right:-80px;
+
+}
+
+.book-mini{
+
+position:relative;
+z-index:2;
+
+font-size:10px;
+
+font-weight:900;
+
+letter-spacing:2px;
+
+color:#93c5fd;
+
+}
+
+.book h2{
+
+position:relative;
+z-index:2;
+
+font-size:32px;
+
+line-height:1.02;
+
+font-weight:900;
+
+margin-top:20px;
+
+}
+
+.book-desc{
+
+position:relative;
+z-index:2;
+
+font-size:12px;
+
+color:#b8c1d6;
+
+margin-top:15px;
+
+}
+
+.book-grid{
+
+position:relative;
+z-index:2;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:7px;
+
+margin-top:30px;
+
+}
+
+.book-grid div{
+
+padding:10px 8px;
+
+border-radius:8px;
+
+background:
+rgba(255,255,255,.055);
+
+border:
+1px solid rgba(255,255,255,.07);
+
+font-size:9px;
+
+font-weight:800;
+
+}
+
+.book-footer{
+
+position:absolute;
+
+left:31px;
+right:31px;
+bottom:24px;
+
+display:flex;
+
+justify-content:space-between;
+
+font-size:9px;
+
+color:#8792aa;
+
+z-index:2;
+
+}
+
+
+/* =========================================================
+   TRUST STRIP
+========================================================= */
+
+.trust{
+
+padding:
+0 0 45px;
+
+}
+
+.trust-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:10px;
+
+}
+
+.trust-item{
+
+text-align:center;
+
+padding:16px 10px;
+
+border:
+1px solid var(--border);
+
+border-radius:11px;
+
+background:
+rgba(255,255,255,.025);
+
+font-size:12px;
+
+font-weight:800;
+
+color:#cbd5e1;
+
+}
+
+
+/* =========================================================
+   PROBLEM
+========================================================= */
+
+.problem{
+
+background:
+linear-gradient(
+180deg,
+transparent,
+rgba(255,255,255,.018),
+transparent
+);
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:18px;
+
+}
+
+.card{
+
+padding:28px;
+
+border-radius:17px;
+
+background:
+rgba(255,255,255,.035);
+
+border:
+1px solid var(--border);
+
+transition:.25s;
+
+}
+
+.card:hover{
+
+transform:translateY(-4px);
+
+border-color:
+rgba(96,165,250,.30);
+
+}
+
+.icon{
+
+width:45px;
+height:45px;
+
+display:grid;
+
+place-items:center;
+
+border-radius:12px;
+
+background:
+rgba(79,140,255,.09);
+
+font-size:20px;
+
+margin-bottom:17px;
+
+}
+
+.card h3{
+
+font-size:19px;
+
+margin-bottom:8px;
+
+}
+
+.card p{
+
+font-size:14px;
+
+color:var(--muted);
+
+}
+
+
+/* =========================================================
+   SOLUTION
+========================================================= */
+
+.solution-box{
+
+padding:45px;
+
+border-radius:24px;
+
+border:
+1px solid rgba(96,165,250,.18);
+
+background:
+
+linear-gradient(
+135deg,
+rgba(79,140,255,.09),
+rgba(139,92,246,.06)
+);
+
+}
+
+.solution-grid{
+
+display:grid;
+
+grid-template-columns:.8fr 1.2fr;
+
+gap:50px;
+
+align-items:center;
+
+}
+
+.solution-list{
+
+display:grid;
+
+gap:13px;
+
+}
+
+.solution-item{
+
+display:flex;
+
+gap:12px;
+
+align-items:flex-start;
+
+}
+
+.check{
+
+width:23px;
+height:23px;
+
+min-width:23px;
+
+display:grid;
+
+place-items:center;
+
+border-radius:50%;
+
+background:
+rgba(34,211,238,.11);
+
+color:#67e8f9;
+
+font-size:11px;
+
+}
+
+.solution-item p{
+
+font-size:14px;
+
+color:#cbd5e1;
+
+}
+
+
+/* =========================================================
+   PREVIEW
+========================================================= */
+
+.preview{
+
+background:
+rgba(255,255,255,.015);
+
+}
+
+.preview-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:16px;
+
+}
+
+.preview-card{
+
+background:
+#0c111f;
+
+border:
+1px solid var(--border);
+
+border-radius:14px;
+
+overflow:hidden;
+
+}
+
+.preview-placeholder{
+
+aspect-ratio:
+4/3;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+padding:20px;
+
+background:
+
+linear-gradient(
+145deg,
+#111a31,
+#090d19
+);
+
+color:#76829a;
+
+font-size:12px;
+
+font-weight:700;
+
+}
+
+.preview-caption{
+
+padding:13px 15px;
+
+font-size:12px;
+
+font-weight:800;
+
+color:#cbd5e1;
+
+}
+
+
+/* =========================================================
+   INSIDE
+========================================================= */
+
+.inside-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(2,1fr);
+
+gap:16px;
+
+}
+
+.inside-card{
+
+padding:25px;
+
+border-radius:15px;
+
+background:
+rgba(255,255,255,.035);
+
+border:
+1px solid var(--border);
+
+}
+
+.module{
+
+font-size:10px;
+
+font-weight:900;
+
+letter-spacing:1.5px;
+
+color:#60a5fa;
+
+margin-bottom:8px;
+
+}
+
+.inside-card h3{
+
+font-size:19px;
+
+margin-bottom:7px;
+
+}
+
+.inside-card p{
+
+font-size:13px;
+
+color:var(--muted);
+
+}
+
+
+/* =========================================================
+   WORKFLOW
+========================================================= */
+
+.workflow-section{
+
+overflow:hidden;
+
+}
+
+.workflow-line{
+
+display:grid;
+
+grid-template-columns:
+repeat(8,1fr);
+
+gap:8px;
+
+margin-top:42px;
+
+}
+
+.step{
+
+text-align:center;
+
+}
+
+.step-circle{
+
+width:48px;
+height:48px;
+
+margin:auto;
+
+display:grid;
+
+place-items:center;
+
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+
+font-weight:900;
+
+box-shadow:
+0 8px 25px rgba(79,140,255,.20);
+
+}
+
+.step h4{
+
+font-size:11px;
+
+margin-top:9px;
+
+}
+
+.step p{
+
+font-size:9px;
+
+color:#69758c;
+
+}
+
+
+/* =========================================================
+   WHO
+========================================================= */
+
+.who-grid{
+
+display:grid;
+
+grid-template-columns:
+1fr 1fr;
+
+gap:18px;
+
+}
+
+.who-card{
+
+padding:28px;
+
+border-radius:17px;
+
+border:
+1px solid var(--border);
+
+background:
+rgba(255,255,255,.035);
+
+}
+
+.who-card h3{
+
+margin-bottom:15px;
+
+}
+
+.who-card ul{
+
+list-style:none;
+
+}
+
+.who-card li{
+
+font-size:14px;
+
+color:#cbd5e1;
+
+padding:7px 0;
+
+}
+
+.who-card li::before{
+
+content:"✓";
+
+color:#67e8f9;
+
+font-weight:900;
+
+margin-right:10px;
+
+}
+
+
+/* =========================================================
+   BONUS
+========================================================= */
+
+.bonus-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:16px;
+
+}
+
+.bonus{
+
+padding:25px;
+
+border-radius:16px;
+
+background:
+
+linear-gradient(
+135deg,
+rgba(139,92,246,.10),
+rgba(79,140,255,.04)
+);
+
+border:
+1px solid rgba(139,92,246,.18);
+
+}
+
+.bonus-tag{
+
+display:inline-block;
+
+padding:4px 8px;
+
+border-radius:5px;
+
+background:
+rgba(139,92,246,.14);
+
+color:#c4b5fd;
+
+font-size:9px;
+
+font-weight:900;
+
+margin-bottom:11px;
+
+}
+
+.bonus h3{
+
+font-size:17px;
+
+margin-bottom:7px;
+
+}
+
+.bonus p{
+
+font-size:13px;
+
+color:var(--muted);
+
+}
+
+
+/* =========================================================
+   CREATOR
+========================================================= */
+
+.creator{
+
+padding-top:55px;
+
+}
+
+.creator-box{
+
+max-width:900px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:
+220px 1fr;
+
+gap:35px;
+
+align-items:center;
+
+padding:35px;
+
+border-radius:22px;
+
+background:
+rgba(255,255,255,.035);
+
+border:
+1px solid var(--border);
+
+}
+
+.creator-photo{
+
+width:190px;
+height:190px;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+background:
+linear-gradient(
+135deg,
+#17264b,
+#17112e
+);
+
+border:
+1px solid rgba(96,165,250,.25);
+
+color:#8190ad;
+
+font-size:12px;
+
+font-weight:800;
+
+}
+
+.creator-content h2{
+
+font-size:30px;
+
+margin-bottom:10px;
+
+}
+
+.creator-content p{
+
+color:var(--muted);
+
+font-size:14px;
+
+margin-bottom:12px;
+
+}
+
+
+/* =========================================================
+   VALUE STACK
+========================================================= */
+
+.value-section{
+
+padding-top:65px;
+
+}
+
+.value-box{
+
+max-width:850px;
+
+margin:auto;
+
+padding:38px 30px;
+
+border-radius:22px;
+
+background:
+#0b1020;
+
+border:
+1px solid rgba(96,165,250,.20);
+
+}
+
+.value-row{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+padding:14px 0;
+
+border-bottom:
+1px solid rgba(255,255,255,.07);
+
+font-size:14px;
+
+}
+
+.value-row:last-child{
+
+border-bottom:0;
+
+}
+
+.value-row span:last-child{
+
+color:#93c5fd;
+
+font-weight:900;
+
+}
+
+.value-total{
+
+margin-top:12px;
+
+padding-top:20px;
+
+border-top:
+1px solid rgba(255,255,255,.12);
+
+display:flex;
+
+justify-content:space-between;
+
+font-weight:900;
+
+}
+
+
+/* =========================================================
+   OFFER
+========================================================= */
+
+.offer{
+
+padding:
+90px 0 100px;
+
+}
+
+.offer-box{
+
+max-width:850px;
+
+margin:auto;
+
+padding:55px 30px;
+
+text-align:center;
+
+border-radius:25px;
+
+background:
+
+radial-gradient(
+circle at top,
+rgba(79,140,255,.17),
+transparent 55%
+),
+
+#0c1120;
+
+border:
+1px solid rgba(96,165,250,.22);
+
+box-shadow:
+0 35px 90px rgba(0,0,0,.35);
+
+}
+
+.offer-box h2{
+
+font-size:
+clamp(32px,5vw,52px);
+
+line-height:1.08;
+
+margin-bottom:12px;
+
+}
+
+.price{
+
+margin:22px 0;
+
+}
+
+.price .old{
+
+font-size:18px;
+
+color:#697187;
+
+text-decoration:line-through;
+
+margin-right:10px;
+
+}
+
+.price .new{
+
+font-size:60px;
+
+font-weight:900;
+
+}
+
+.price-note{
+
+font-size:11px;
+
+color:#67e8f9;
+
+font-weight:800;
+
+}
+
+.offer-btn{
+
+margin-top:4px;
+
+}
+
+.offer-note{
+
+font-size:11px;
+
+color:#78839a;
+
+margin-top:12px;
+
+}
+
+.policy-note{
+
+max-width:550px;
+
+margin:22px auto 0;
+
+font-size:11px;
+
+color:#657086;
+
+}
+
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.faq{
+
+max-width:820px;
+
+margin:auto;
+
+}
+
+details{
+
+margin-bottom:9px;
+
+border-radius:11px;
+
+overflow:hidden;
+
+background:
+rgba(255,255,255,.035);
+
+border:
+1px solid var(--border);
+
+}
+
+summary{
+
+padding:19px;
+
+cursor:pointer;
+
+font-size:14px;
+
+font-weight:800;
+
+list-style:none;
+
+}
+
+summary::-webkit-details-marker{
+display:none;
+}
+
+details p{
+
+padding:
+0 19px 19px;
+
+font-size:13px;
+
+color:var(--muted);
+
+}
+
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.final{
+
+text-align:center;
+
+padding:
+85px 0 120px;
+
+}
+
+.final h2{
+
+font-size:
+clamp(34px,5vw,56px);
+
+line-height:1.08;
+
+margin-bottom:15px;
+
+}
+
+.final p{
+
+max-width:650px;
+
+margin:
+0 auto 25px;
+
+color:var(--muted);
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+
+border-top:
+1px solid var(--border);
+
+padding:30px 0 100px;
+
+text-align:center;
+
+color:#68738a;
+
+font-size:11px;
+
+}
+
+.footer-links{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+margin-top:10px;
+
+}
+
+.footer-links a{
+
+color:#8994aa;
+
+}
+
+
+/* =========================================================
+   MOBILE CTA
+========================================================= */
+
+.mobile-cta{
+
+display:none;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:900px){
+
+.hero-grid,
+.solution-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-desc{
+
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.workflow{
+
+justify-content:center;
+
+}
+
+.hero-actions{
+
+align-items:center;
+
+}
+
+.hero-price{
+
+justify-content:center;
+
+}
+
+.cards,
+.bonus-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.workflow-line{
+
+grid-template-columns:
+repeat(4,1fr);
+
+row-gap:30px;
+
+}
+
+.trust-grid{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+.creator-box{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.creator-photo{
+
+margin:auto;
+
+}
+
+}
+
+@media(max-width:600px){
+
+section{
+
+padding:65px 0;
+
+}
+
+.hero{
+
+padding:
+50px 0 60px;
+
+}
+
+.hero h1{
+
+letter-spacing:-1px;
+
+}
+
+.hero-desc{
+
+font-size:16px;
+
+}
+
+.btn{
+
+width:100%;
+
+}
+
+.book{
+
+width:300px;
+
+}
+
+.solution-box{
+
+padding:28px 20px;
+
+}
+
+.preview-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.inside-grid,
+.who-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.workflow-line{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+.value-row{
+
+font-size:12px;
+
+}
+
+.price .new{
+
+font-size:50px;
+
+}
+
+.offer-box{
+
+padding:
+40px 20px;
+
+}
+
+.mobile-cta{
+
+display:block;
+
+position:fixed;
+
+left:0;
+right:0;
+bottom:0;
+
+z-index:9999;
+
+padding:9px;
+
+background:
+rgba(5,7,15,.95);
+
+backdrop-filter:blur(16px);
+
+border-top:
+1px solid var(--border);
+
+}
+
+.mobile-cta .btn{
+
+padding:14px;
+
+}
+
+footer{
+
+padding-bottom:95px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- ======================================================
+     TOP BAR
+====================================================== -->
+
+<div class="topbar">
+
+<strong>TELUGU CREATOR EDITION</strong>
+
+&nbsp; • &nbsp;
+
+AI Reel Creation System
+
+</div>
+
+
+
+<!-- ======================================================
+     HERO
+====================================================== -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-grid">
+
+
+<div>
+
+<div class="badge">
+
+🚀 30-DAY AI REELS CREATOR SYSTEM
+
+</div>
+
+
+<h1>
+
+30 Daysలో AIతో
+
+<span class="gradient">
+Instagram Reels
+</span>
+
+Create చేయడానికి
+
+Complete Telugu System.
+
+</h1>
+
+
+<p class="hero-desc">
+
+Reel ideas కోసం రోజూ struggle అవ్వకుండా,
+AI tools మధ్య confusion లేకుండా,
+<strong>Idea → Hook → Script → Image → Video → Voice → Edit → Post</strong>
+workflow నేర్చుకోండి.
+
+</p>
+
+
+<div class="workflow">
+
+<span>IDEA</span>
+<span>HOOK</span>
+<span>SCRIPT</span>
+<span>IMAGE</span>
+<span>VIDEO</span>
+<span>VOICE</span>
+<span>EDIT</span>
+<span>POST</span>
+
+</div>
+
+
+<div class="hero-actions">
+
+<a
+href="#offer"
+class="btn btn-primary">
+
+GET THE COMPLETE SYSTEM — ₹299 →
+
+</a>
+
+<div class="secure">
+
+🔒 Secure Payment • Digital Product
+
+</div>
+
+</div>
+
+
+<div class="hero-price">
+
+<div class="new">
+₹299
+</div>
+
+<div class="old">
+₹999
+</div>
+
+<div class="launch">
+Launch Price
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- PRODUCT -->
+
+<div class="product-area">
+
+<div class="product-glow"></div>
+
+<div class="book">
+
+<div class="book-mini">
+TELUGU CREATOR EDITION
+</div>
+
+<h2>
+30-DAY<br>
+AI REELS<br>
+CREATOR<br>
+SYSTEM
+</h2>
+
+<div class="book-desc">
+
+Idea → Hook → Script → Image →
+Video → Voice → Edit → Post
+
+</div>
+
+
+<div class="book-grid">
+
+<div>100 AI PROMPTS</div>
+
+<div>30 TELUGU SCRIPTS</div>
+
+<div>30-DAY CHALLENGE</div>
+
+<div>AI REEL WORKFLOW</div>
+
+<div>CONTENT CALENDAR</div>
+
+<div>CREATOR RESOURCES</div>
+
+</div>
+
+
+<div class="book-footer">
+
+<span>AI REELS SYSTEM</span>
+
+<span>RAMESH</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     TRUST
+====================================================== -->
+
+<section class="trust">
+
+<div class="container">
+
+<div class="trust-grid">
+
+<div class="trust-item">
+📘 Practical System
+</div>
+
+<div class="trust-item">
+🇮🇳 Telugu Creator Edition
+</div>
+
+<div class="trust-item">
+🤖 AI Workflow
+</div>
+
+<div class="trust-item">
+📱 Beginner Friendly
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     PROBLEM
+====================================================== -->
+
+<section class="problem">
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+THE PROBLEM
+</div>
+
+<h2 class="section-title">
+
+Reel Create చేయాలనుంది...
+
+<span class="gradient">
+కానీ?
+</span>
+
+</h2>
+
+<p class="section-sub">
+
+Content creation start చేసినప్పుడు
+చాలామందికి ఎదురయ్యే common problems.
+
+</p>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="icon">
+💡
+</div>
+
+<h3>
+“ఏం Post చేయాలి?”
+</h3>
+
+<p>
+
+Every day కొత్త Reel idea కోసం
+Instagramలో time spend చేస్తున్నారు.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🤖
+</div>
+
+<h3>
+AI Tools Confusion
+</h3>
+
+<p>
+
+ChatGPT, Image AI, Video AI,
+Voice AI... ఏది ఎప్పుడు use చేయాలో clarity లేదు.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🔄
+</div>
+
+<h3>
+Repeatable System లేదు
+</h3>
+
+<p>
+
+ఒక Reel create చేసిన తర్వాత
+next Reel కోసం మళ్లీ zero నుంచి start చేస్తున్నారు.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     SOLUTION
+====================================================== -->
+
+<section>
+
+<div class="container">
+
+<div class="solution-box">
+
+<div class="solution-grid">
+
+
+<div>
+
+<div class="label">
+THE SOLUTION
+</div>
+
+<h2 class="section-title">
+
+ఒక Clear
+
+<span class="gradient">
+AI Reel System.
+</span>
+
+</h2>
+
+<p style="color:#aab1c5;font-size:14px;">
+
+Random AI tools కాకుండా,
+ఒక repeatable workflow follow చేస్తూ
+Reels create చేయడానికి ఈ system రూపొందించబడింది.
+
+</p>
+
+</div>
+
+
+<div class="solution-list">
+
+<div class="solution-item">
+
+<div class="check">✓</div>
+
+<p>
+100 ready-to-use AI Prompts
+</p>
+
+</div>
+
+
+<div class="solution-item">
+
+<div class="check">✓</div>
+
+<p>
+30 Telugu Reel Scripts
+</p>
+
+</div>
+
+
+<div class="solution-item">
+
+<div class="check">✓</div>
+
+<p>
+30-Day Reel Creation Challenge
+</p>
+
+</div>
+
+
+<div class="solution-item">
+
+<div class="check">✓</div>
+
+<p>
+Complete AI Reel Workflow
+</p>
+
+</div>
+
+
+<div class="solution-item">
+
+<div class="check">✓</div>
+
+<p>
+Content Calendar + CTA + Caption Resources
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     PRODUCT PREVIEW
+====================================================== -->
+
+<section class="preview">
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+SEE WHAT YOU'RE GETTING
+</div>
+
+<h2 class="section-title">
+
+Inside the
+
+<span class="gradient">
+System
+</span>
+
+</h2>
+
+<p class="section-sub">
+
+Actual product pages/screenshots ఇక్కడ add చేయండి.
+Visitor purchase చేసే ముందు product quality చూడగలగాలి.
+
+</p>
+
+</div>
+
+
+<div class="preview-grid">
+
+
+<!-- Replace these placeholders with actual images -->
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD YOUR PDF<br>
+COVER IMAGE HERE
+
+</div>
+
+<div class="preview-caption">
+
+01 • Complete System
+
+</div>
+
+</div>
+
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD 100 AI PROMPTS<br>
+PAGE SCREENSHOT HERE
+
+</div>
+
+<div class="preview-caption">
+
+02 • 100 AI Prompts
+
+</div>
+
+</div>
+
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD 30-DAY CHALLENGE<br>
+PAGE SCREENSHOT HERE
+
+</div>
+
+<div class="preview-caption">
+
+03 • 30-Day Challenge
+
+</div>
+
+</div>
+
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD TELUGU SCRIPT<br>
+PAGE SCREENSHOT HERE
+
+</div>
+
+<div class="preview-caption">
+
+04 • 30 Telugu Scripts
+
+</div>
+
+</div>
+
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD WORKFLOW<br>
+PAGE SCREENSHOT HERE
+
+</div>
+
+<div class="preview-caption">
+
+05 • AI Reel Workflow
+
+</div>
+
+</div>
+
+
+<div class="preview-card">
+
+<div class="preview-placeholder">
+
+ADD CONTENT CALENDAR<br>
+SCREENSHOT HERE
+
+</div>
+
+<div class="preview-caption">
+
+06 • Content Calendar
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     WHAT'S INSIDE
+====================================================== -->
+
+<section>
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+WHAT'S INSIDE
+</div>
+
+<h2 class="section-title">
+మీకు ఏమి లభిస్తుంది?
+</h2>
+
+<p class="section-sub">
+
+Generic ebook కాకుండా,
+practical content creation resources.
+
+</p>
+
+</div>
+
+
+<div class="inside-grid">
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 01
+</div>
+
+<h3>
+100 AI Prompts
+</h3>
+
+<p>
+
+Reel Ideas, Hooks, Scripts,
+Storytelling, Educational,
+Business, Affiliate, Engagement
+మరియు AI Video prompts.
+
+</p>
+
+</div>
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 02
+</div>
+
+<h3>
+30 Telugu Reel Scripts
+</h3>
+
+<p>
+
+Hook, Voiceover, Scene Breakdown,
+Visual Direction, AI Image Prompt,
+Video Prompt & CTA.
+
+</p>
+
+</div>
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 03
+</div>
+
+<h3>
+30-Day Challenge
+</h3>
+
+<p>
+
+30 daysకి daily Reel topic,
+Hook, Script, Visual Idea
+మరియు action structure.
+
+</p>
+
+</div>
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 04
+</div>
+
+<h3>
+Complete AI Reel Workflow
+</h3>
+
+<p>
+
+Idea నుంచి Final Reel వరకు
+step-by-step content creation process.
+
+</p>
+
+</div>
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 05
+</div>
+
+<h3>
+30-Day Content Calendar
+</h3>
+
+<p>
+
+Consistent content planning కోసం
+structured calendar.
+
+</p>
+
+</div>
+
+
+<div class="inside-card">
+
+<div class="module">
+MODULE 06
+</div>
+
+<h3>
+Creator Resources
+</h3>
+
+<p>
+
+CTA templates, caption templates,
+Reel titles మరియు troubleshooting resources.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     WORKFLOW
+====================================================== -->
+
+<section class="workflow-section">
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+THE CREATION SYSTEM
+</div>
+
+<h2 class="section-title">
+
+Idea నుంచి
+
+<span class="gradient">
+Final Reel
+</span>
+
+వరకు
+
+</h2>
+
+<p class="section-sub">
+
+ఒక repeatable AI Reel production workflow.
+
+</p>
+
+</div>
+
+
+<div class="workflow-line">
+
+
+<div class="step">
+<div class="step-circle">1</div>
+<h4>IDEA</h4>
+<p>Topic</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">2</div>
+<h4>HOOK</h4>
+<p>Attention</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">3</div>
+<h4>SCRIPT</h4>
+<p>Story</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">4</div>
+<h4>IMAGE</h4>
+<p>Visual</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">5</div>
+<h4>VIDEO</h4>
+<p>Motion</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">6</div>
+<h4>VOICE</h4>
+<p>Audio</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">7</div>
+<h4>EDIT</h4>
+<p>Polish</p>
+</div>
+
+
+<div class="step">
+<div class="step-circle">8</div>
+<h4>POST</h4>
+<p>Publish</p>
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     WHO IS THIS FOR
+====================================================== -->
+
+<section>
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+WHO IS THIS FOR?
+</div>
+
+<h2 class="section-title">
+ఎవరి కోసం?
+</h2>
+
+</div>
+
+
+<div class="who-grid">
+
+
+<div class="who-card">
+
+<h3>
+Perfect For 👇
+</h3>
+
+<ul>
+
+<li>Instagram Beginners</li>
+
+<li>Students</li>
+
+<li>Freelancers</li>
+
+<li>Small Business Owners</li>
+
+<li>Personal Brand Creators</li>
+
+<li>Affiliate Creators</li>
+
+<li>Telugu Content Creators</li>
+
+<li>AI Content Creators</li>
+
+</ul>
+
+</div>
+
+
+<div class="who-card">
+
+<h3>
+Not For You If...
+</h3>
+
+<ul>
+
+<li>Guaranteed viral views కోసం చూస్తుంటే</li>
+
+<li>Overnight income కోసం చూస్తుంటే</li>
+
+<li>Action లేకుండా results మాత్రమే కావాలంటే</li>
+
+<li>Content creation practice చేయాలనే interest లేకపోతే</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     BONUSES
+====================================================== -->
+
+<section>
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+BONUS RESOURCES
+</div>
+
+<h2 class="section-title">
+
+Extra Creator
+
+<span class="gradient">
+Resources
+</span>
+
+</h2>
+
+</div>
+
+
+<div class="bonus-grid">
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 01
+</div>
+
+<h3>
+50 AI Content Ideas
+</h3>
+
+<p>
+Next Reel ఏం చేయాలో blank అవ్వకుండా
+ready idea bank.
+</p>
+
+</div>
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 02
+</div>
+
+<h3>
+50 CTA Templates
+</h3>
+
+<p>
+Audience action కోసం
+ready CTA templates.
+</p>
+
+</div>
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 03
+</div>
+
+<h3>
+50 Caption Templates
+</h3>
+
+<p>
+Reels కోసం faster caption creation.
+</p>
+
+</div>
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 04
+</div>
+
+<h3>
+50 Reel Titles
+</h3>
+
+<p>
+Different Reel formats కోసం
+title ideas.
+</p>
+
+</div>
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 05
+</div>
+
+<h3>
+AI Troubleshooting Guide
+</h3>
+
+<p>
+Common AI Reel creation issues
+troubleshoot చేయడానికి guide.
+</p>
+
+</div>
+
+
+<div class="bonus">
+
+<div class="bonus-tag">
+BONUS 06
+</div>
+
+<h3>
+7 Video Tutorial Plan
+</h3>
+
+<p>
+AI Reel workflow practice చేయడానికి
+tutorial roadmap.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     CREATOR
+====================================================== -->
+
+<section class="creator">
+
+<div class="container">
+
+<div class="creator-box">
+
+
+<div class="creator-photo">
+
+YOUR<br>
+PHOTO<br>
+HERE
+
+</div>
+
+
+<div class="creator-content">
+
+<div class="label">
+CREATED BY
+</div>
+
+<h2>
+Ramesh
+</h2>
+
+<p>
+
+AI tools మరియు content creation workflow
+ni Telugu creatorsకి practical ga simplify చేయాలనే
+purposeతో ఈ system రూపొందించబడింది.
+
+</p>
+
+<p>
+
+Focus: <strong>practical workflow + prompts + execution</strong>,
+not unrealistic promises.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     VALUE STACK
+====================================================== -->
+
+<section class="value-section">
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+WHAT YOU GET TODAY
+</div>
+
+<h2 class="section-title">
+
+One System.
+Multiple Creator Resources.
+
+</h2>
+
+<p class="section-sub">
+
+Everything is organized in one place so you can
+start creating instead of searching.
+
+</p>
+
+</div>
+
+
+<div class="value-box">
+
+
+<div class="value-row">
+
+<span>30-Day AI Reels Creator System</span>
+
+<span>₹999</span>
+
+</div>
+
+
+<div class="value-row">
+
+<span>100 AI Prompts</span>
+
+<span>Included</span>
+
+</div>
+
+
+<div class="value-row">
+
+<span>30 Telugu Reel Scripts</span>
+
+<span>Included</span>
+
+</div>
+
+
+<div class="value-row">
+
+<span>30-Day Challenge</span>
+
+<span>Included</span>
+
+</div>
+
+
+<div class="value-row">
+
+<span>Content Calendar</span>
+
+<span>Included</span>
+
+</div>
+
+
+<div class="value-row">
+
+<span>Creator Bonus Resources</span>
+
+<span>Included</span>
+
+</div>
+
+
+<div class="value-total">
+
+<span>
+TODAY
+</span>
+
+<span>
+₹299
+</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     OFFER
+====================================================== -->
+
+<section class="offer" id="offer">
+
+<div class="container">
+
+<div class="offer-box">
+
+<div class="label">
+TELUGU CREATOR EDITION
+</div>
+
+
+<h2>
+
+Ready to Build Your
+
+<span class="gradient">
+AI Reel System?
+</span>
+
+</h2>
+
+
+<p style="color:#aab1c5;">
+
+30-Day AI Reels Creator System
+
+</p>
+
+
+<div class="price">
+
+<span class="old">
+₹999
+</span>
+
+<span class="new">
+₹299
+</span>
+
+</div>
+
+
+<div class="price-note">
+
+ONE-TIME DIGITAL PRODUCT
+
+</div>
+
+
+<!-- ==============================================
+     REPLACE PAYMENT LINK
+=============================================== -->
+
+<a
+href="YOUR_PAYMENT_LINK_HERE"
+class="btn btn-primary offer-btn"
+onclick="trackCheckoutClick()">
+
+GET THE COMPLETE SYSTEM — ₹299 →
+
+</a>
+
+
+<div class="offer-note">
+
+🔒 Secure Payment &nbsp; • &nbsp;
+📱 Digital Product &nbsp; • &nbsp;
+⚡ Access after successful payment
+
+</div>
+
+
+<div class="policy-note">
+
+Please review the product details and applicable
+refund/cancellation policy before purchase.
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     FAQ
+====================================================== -->
+
+<section>
+
+<div class="container">
+
+<div class="center">
+
+<div class="label">
+FAQ
+</div>
+
+<h2 class="section-title">
+Frequently Asked Questions
+</h2>
+
+</div>
+
+
+<div class="faq">
+
+
+<details>
+
+<summary>
+ఈ System Teluguలో ఉందా?
+</summary>
+
+<p>
+
+అవును. Primary explanation Teluguలో ఉంటుంది.
+AI, Prompt, Script, Hook, Reel, Video వంటి
+technical terms Englishలో ఉంటాయి.
+
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Beginners use చేయగలరా?
+</summary>
+
+<p>
+
+అవును. Basic level నుంచి workflow
+step-by-stepగా follow చేయడానికి structure చేయబడింది.
+
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+ఏ AI tools అవసరం?
+</summary>
+
+<p>
+
+ChatGPT, AI image tools, AI video tools,
+voice tools మరియు editing tools వంటి categories
+workflowలో ఉపయోగించవచ్చు. Specific tools కాలానుగుణంగా మారవచ్చు.
+
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Payment చేసిన తర్వాత product ఎలా వస్తుంది?
+</summary>
+
+<p>
+
+Payment successfully complete అయిన తర్వాత
+మీ configured digital delivery system ద్వారా
+product access అందుతుంది.
+
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+ఇది viral views guarantee చేస్తుందా?
+</summary>
+
+<p>
+
+లేదు. ఇది content creation system,
+prompts మరియు workflow అందించే digital product.
+Views, followers లేదా income guarantee చేయదు.
+
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Refund policy ఏమిటి?
+</summary>
+
+<p>
+
+మీ actual refund/cancellation policyని ఇక్కడ clearly
+mention చేయండి. Purchase ముందు customerకి
+policy transparentగా కనిపించేలా ఉంచండి.
+
+</p>
+
+</details>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     FINAL CTA
+====================================================== -->
+
+<section class="final">
+
+<div class="container">
+
+<div class="label">
+START CREATING
+</div>
+
+
+<h2>
+
+Your Next Reel Can Start With
+
+<span class="gradient">
+One Clear System.
+</span>
+
+</h2>
+
+
+<p>
+
+Ideas కోసం endless scrolling కాకుండా,
+ఒక structured AI Reel workflow follow చేయడం start చేయండి.
+
+</p>
+
+
+<a
+href="#offer"
+class="btn btn-primary">
+
+GET THE SYSTEM — ₹299 →
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 30-Day AI Reels Creator System
+</p>
+
+<p style="margin-top:6px;">
+Created by Ramesh
+</p>
+
+
+<div class="footer-links">
+
+<a href="YOUR_PRIVACY_POLICY_URL">
+Privacy Policy
+</a>
+
+<a href="YOUR_TERMS_URL">
+Terms & Conditions
+</a>
+
+<a href="YOUR_REFUND_POLICY_URL">
+Refund Policy
+</a>
+
+<a href="YOUR_CONTACT_URL">
+Contact
+</a>
+
+</div>
+
+</div>
+
+</footer>
+
+
+
+<!-- ======================================================
+     MOBILE STICKY CTA
+====================================================== -->
+
+<div class="mobile-cta">
+
+<a
+href="YOUR_PAYMENT_LINK_HERE"
+class="btn btn-primary btn-full"
+onclick="trackCheckoutClick()">
+
+GET THE SYSTEM — ₹299 →
+
+</a>
+
+</div>
+
+
+
+<!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script>
+
+function trackCheckoutClick(){
+
+/*
+  If Meta Pixel is installed,
+  track InitiateCheckout.
+*/
+
+if(typeof fbq !== "undefined"){
+
+fbq(
+'track',
+'InitiateCheckout',
+{
+value:299,
+currency:'INR'
+}
+);
+
+}
+
+}
+
+
+/*
+  Smooth scroll for internal links
+*/
+
+document
+.querySelectorAll('a[href^="#"]')
+.forEach(function(link){
+
+link.addEventListener('click',function(e){
+
+const target =
+document.querySelector(
+this.getAttribute('href')
+);
+
+if(target){
+
+e.preventDefault();
+
+target.scrollIntoView({
+behavior:'smooth'
+});
+
+}
+
+});
+
+});
+
+</script>
+
+
+</body>
+</html>
