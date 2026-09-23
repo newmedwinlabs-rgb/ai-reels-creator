@@ -2305,7 +2305,45 @@ Content Calendar + CTA + Caption Resources
 
 
 <!-- ======================================================
-     PRODUCT PREVIEW
+     <div class="preview-grid">
+
+  <div class="preview-card">
+    <img src="images/cover.jpg" alt="30-Day AI Reels Creator System Cover">
+    <h3>📘 Complete AI Reels System</h3>
+    <p>30 Daysలో AIతో Reels Create చేయడానికి Step-by-Step Telugu System.</p>
+  </div>
+
+  <div class="preview-card">
+    <img src="images/prompts.jpg" alt="100 AI Prompts">
+    <h3>🤖 100 AI Prompts</h3>
+    <p>Reel Ideas, Hooks, Scripts, Business, Affiliate & AI Video Prompts.</p>
+  </div>
+
+  <div class="preview-card">
+    <img src="images/challenge.jpg" alt="30 Day AI Reels Challenge">
+    <h3>🔥 30-Day Challenge</h3>
+    <p>రోజూ ఒక Reel create చేసి మీ own content system build చేసుకోండి.</p>
+  </div>
+
+  <div class="preview-card">
+    <img src="images/scripts.jpg" alt="30 Telugu Reel Scripts">
+    <h3>🎬 30 Telugu Reel Scripts</h3>
+    <p>Ready-to-use Telugu scripts with scenes, visuals and AI prompts.</p>
+  </div>
+
+  <div class="preview-card">
+    <img src="images/workflow.jpg" alt="AI Reel Workflow">
+    <h3>⚡ Complete AI Workflow</h3>
+    <p>Idea → Hook → Script → Image → Video → Voice → Edit → Post.</p>
+  </div>
+
+  <div class="preview-card">
+    <img src="images/calendar.jpg" alt="30 Day Content Calendar">
+    <h3>📅 30-Day Content Calendar</h3>
+    <p>30 Daysకి ఏమి post చేయాలో clear content plan.</p>
+  </div>
+
+</div>
 ====================================================== -->
 
 <section class="preview">
@@ -3400,7 +3438,7 @@ GET THE SYSTEM — ₹299 →
 </p>
 
 <p style="margin-top:6px;">
-Created by Ramesh
+Created by Ramesh Elimineti
 </p>
 
 
